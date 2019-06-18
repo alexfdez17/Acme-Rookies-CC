@@ -1,0 +1,1 @@
+mysql -uroot -pV3rY=$tR0nG=P@$$w0rd$ < Create-Acme-Rookies.sql

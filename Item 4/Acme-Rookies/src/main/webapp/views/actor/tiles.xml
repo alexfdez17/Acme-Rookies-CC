@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles.xml
+ *
+ * Copyright (C) 2019 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+       
+<tiles-definitions>
+
+	<definition extends="master.page" name="actor/displayAdmin">
+		<put-attribute name="title" value="Admin display"/>
+		<put-attribute name="body" value="/views/actor/displayAdmin.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/editAdmin">
+		<put-attribute name="title" value="Admin edit"/>
+		<put-attribute name="body" value="/views/actor/editAdmin.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/registerRookie">
+		<put-attribute name="title" value="Rookie register"/>
+		<put-attribute name="body" value="/views/actor/registerHacker.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/displayRookie">
+		<put-attribute name="title" value="Rookie display"/>
+		<put-attribute name="body" value="/views/actor/displayRookie.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/displayCompany">
+		<put-attribute name="title" value="Company display"/>
+		<put-attribute name="body" value="/views/actor/displayCompany.jsp"/>
+	</definition>
+
+	<definition extends="master.page" name="actor/registerCompany">
+		<put-attribute name="title" value="Company register"/>
+		<put-attribute name="body" value="/views/actor/registerCompany.jsp"/>
+	</definition>
+
+	<definition extends="master.page" name="actor/registerAdministrator">
+		<put-attribute name="title" value="Administrator register"/>
+		<put-attribute name="body" value="/views/actor/registerAdministrator.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/registerAuditor">
+		<put-attribute name="title" value="Auditor register"/>
+		<put-attribute name="body" value="/views/actor/registerAuditor.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/registerProvider">
+		<put-attribute name="title" value="Provider register"/>
+		<put-attribute name="body" value="/views/actor/registerProvider.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/editRookie">
+		<put-attribute name="title" value="Rookie edit"/>
+		<put-attribute name="body" value="/views/actor/editHacker.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/editCompany">
+		<put-attribute name="title" value="Company edit"/>
+		<put-attribute name="body" value="/views/actor/editCompany.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/displayAuditor">
+		<put-attribute name="title" value="Auditor display"/>
+		<put-attribute name="body" value="/views/actor/displayAuditor.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/editAuditor">
+		<put-attribute name="title" value="Auditor edit"/>
+		<put-attribute name="body" value="/views/actor/editAuditor.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/displayProvider">
+		<put-attribute name="title" value="Provider display"/>
+		<put-attribute name="body" value="/views/actor/displayProvider.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="actor/editProvider">
+		<put-attribute name="title" value="Provider edit"/>
+		<put-attribute name="body" value="/views/actor/editProvider.jsp"/>
+	</definition>
+	
+	<definition extends="master.page" name="provider/list">
+		<put-attribute name="title" value="Provider list"/>
+		<put-attribute name="body" value="/views/actor/listProvider.jsp"/>
+	</definition>
+	
+	
+</tiles-definitions>
